@@ -16,5 +16,5 @@ Database configuration
 How to run tests
 
 
-Clone the Repository create virtual environment and run the requirement.txt file to install the required packages 
+Clone the Repository and create virtual environment and run the requirement.txt file to install the required packages 
 pip install -r requirements.txt
