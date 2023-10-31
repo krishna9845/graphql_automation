@@ -9,9 +9,9 @@ How do I get set up?
 Summary of set up You just need to pass ship and shore url in pytest run command in order to run this job
 
 Configuration: https://api.dev.airstack.xyz/gql
+
 Dependencies There is no dependency as of now in order to run this.
 
-Database configuration
 
 How to run tests
 
