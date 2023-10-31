@@ -1,0 +1,5 @@
+pytest==7.4.3
+graphene==3.3
+requests==2.31.0
+allure-pytest==2.13.2
+pytest-allure-adaptor==1.7.10
