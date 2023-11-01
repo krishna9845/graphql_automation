@@ -1,4 +1,8 @@
 def queries_negative():
+    """
+    Graphql in pit variable to validate negative scenario
+    :return:
+    """
     query = """
     query Test1($input: TokensInput!) {
       Tokens(input: $input_data) {

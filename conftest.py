@@ -9,6 +9,10 @@ from pathlib import Path
 # Fixture for loading configuration
 @pytest.fixture
 def graphql_config():
+    """
+    Function to read configurate file such as url etc.
+    :return:
+    """
     with open('config.json', 'r') as config_file:
         config = json.load(config_file)
     return config
@@ -18,7 +22,7 @@ def graphql_config():
 @pytest.fixture
 def api_url(graphql_config):
     """
-
+    Function to get API
     :param graphql_config:
     :return:
     """
@@ -28,6 +32,7 @@ def api_url(graphql_config):
 @pytest.fixture
 def query_module():
     """
+    Function to provide the graphql query
     :return:
     """
     return queries()
@@ -36,7 +41,7 @@ def query_module():
 @pytest.fixture
 def variable_module():
     """
-
+    Function to provide the input variable
     :return:
     """
     return variables()
