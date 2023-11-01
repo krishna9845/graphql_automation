@@ -28,6 +28,7 @@ def api_url(graphql_config):
 @pytest.fixture
 def query_module():
     """
+    Function to provide the graphql query
     :return:
     """
     return queries()
@@ -36,7 +37,7 @@ def query_module():
 @pytest.fixture
 def variable_module():
     """
-
+    Function to provide the input variable
     :return:
     """
     return variables()

@@ -14,6 +14,7 @@ class TestGraphqlQuery:
     """
 
     @allure.feature("Positive")
+    @allure.story("Address in response")
     def test_01_positive_scenario(self, api_url):
         """
         Function to verify grpahql api positive response
@@ -33,6 +34,7 @@ class TestGraphqlQuery:
             raise Exception("requested fields are not coming in response")
 
     @allure.feature("Negative")
+    @allure.story("error in response")
     def test_02_negative_scenario(self, api_url):
         """
         Function to verify graphql negative response
