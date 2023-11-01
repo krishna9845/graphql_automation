@@ -1,6 +1,10 @@
 
 def variables():
     """
+    Graphql inpt variable
+    :return:
+    """
+    """
     Define the variables as a Python dictionary
 
     :return:

@@ -10,14 +10,14 @@ from variables.variable_module import variables
 
 class TestGraphqlQuery:
     """
-    Clas to validate the graphql api response for id and address
+    Class to validate the graphql api response for id and address
     """
 
     @allure.feature("Positive")
     @allure.story("Address in response")
     def test_01_positive_scenario(self, api_url):
         """
-        Function to verify grpahql api positive response
+        Function to verify address key in response as per the input provided
         :param api_url:
         :return:
         """
@@ -50,4 +50,4 @@ class TestGraphqlQuery:
                 if key == "address":
                     raise Exception("no results should be in response for negative scenario")
         except Exception as error:
-            logging.info(f"Failed due to {error}")
+            logging.info(f"Expected error {error}")

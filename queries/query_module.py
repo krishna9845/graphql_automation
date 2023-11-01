@@ -1,4 +1,8 @@
 def queries():
+    """
+    Graphql Query
+    :return:
+    """
     query = """
     query Test1($input: TokensInput!) {
       Tokens(input: $input) {
